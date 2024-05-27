@@ -6,7 +6,9 @@
     "module": "esNext", // required by "preserveValueImports"
     "moduleResolution": "node", // required by zodern:types (not documented)
     "paths": {
-      "/*": ["*"], // support absolute /imports/* with a leading '/'
+      "/*": [
+        "*"
+      ], // support absolute /imports/* with a leading '/'
       // support Meteor/Atmospehere packages, required by zodern:types
       "meteor/*": [
         "node_modules/@types/meteor/*",
@@ -16,5 +18,9 @@
     "preserveSymlinks": true, // required by zodern:types
     "preserveValueImports": true // otherwise TS will remove imported components
   },
-  "exclude": ["./.meteor/**", "!./.meteor/local/types", "./packages/**"] // this may solve VS Code Svelte plugin warnings
+  "exclude": [
+    "./.meteor/**",
+    "!./.meteor/local/types",
+    "./packages/**"
+  ] // this may solve VS Code Svelte plugin warnings
 }
