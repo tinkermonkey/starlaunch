@@ -12,6 +12,8 @@ Meteor base project with the right packages, user management, and user roles bak
   - Helper methods for collection entities
 - [msavin:sjobs](https://atmospherejs.com/msavin/sjobs)
   - Async task coordination
+- [simpl-schema](https://www.npmjs.com/package/simpl-schema)
+  - [Simple Schema](https://github.com/longshotlabs/simpl-schema) controls for Meteor collections
 
 ## NPM
 - [log4js](https://www.npmjs.com/package/log4js)

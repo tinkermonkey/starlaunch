@@ -15,18 +15,27 @@
     "meteor-node-stubs": "^1.2.7",
     "postcss": "^8.4.38",
     "postcss-load-config": "^5.1.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "simpl-schema": "^3.4.6",
     "svelte": "^4.2.17",
     "svelte-preprocess": "^5.1.4",
     "svelte-spa-router": "^4.0.1",
     "tailwind-merge": "^2.3.0",
     "tailwindcss": "^3.4.3"
   },
+  "devDependencies": {
+    "svelte-preprocess": "^5.0.0"
+  },
   "meteor": {
     "mainModule": {
-      "client": "client/main.jsx",
+      "client": "client/main.js",
       "server": "server/main.js"
+    },
+    "nodeModules": {
+      "recompile": {
+        "svelte": [
+          "legacy"
+        ]
+      }
     },
     "testModule": "tests/main.js"
   }
