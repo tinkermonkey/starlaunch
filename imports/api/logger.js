@@ -1,8 +1,7 @@
 import { Meteor } from 'meteor/meteor';
-import { log4js } from 'log4js';
+import log4js from 'log4js';
 
-if (Meteor.isServer()) {
-    // Pick up the server directory to store the log file in the /logs folder
+if (Meteor.isServer) {
     log4js.configure({
         appenders: {
             out: { type: 'stdout', layout: { type: 'colored' }, pattern: '%d %p %c %f:%l %m%n' },

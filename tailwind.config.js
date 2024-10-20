@@ -22,6 +22,5 @@ module.config = {
     variants: {
         extend: {},
     },
-    //plugins: [require('flowbite-svelte/plugin')],
     plugins: [require('flowbite/plugin')],
 }

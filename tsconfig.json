@@ -20,7 +20,8 @@
   },
   "exclude": [
     "./.meteor/**",
-    "!./.meteor/local/types",
-    "./packages/**"
+    //"!./.meteor/local/types",
+    "./packages/**",
+    "./node_modules/**",
   ] // this may solve VS Code Svelte plugin warnings
 }

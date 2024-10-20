@@ -11,6 +11,8 @@
     "@babel/runtime": "^7.23.5",
     "flowbite": "^2.3.0",
     "flowbite-svelte": "^0.46.1",
+    "flowbite-svelte-blocks": "^1.1.1",
+    "flowbite-svelte-icons": "^1.6.1",
     "log4js": "^6.9.1",
     "meteor-node-stubs": "^1.2.7",
     "simpl-schema": "^3.4.6",
